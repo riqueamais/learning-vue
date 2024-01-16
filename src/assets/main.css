@@ -1,5 +1,5 @@
 body {
-    background-color: #1A1A1A;
+    background-color: #1A1A1A !important;
 }
 
 header {
@@ -29,7 +29,8 @@ header .logo {
 }
 
 header .logo h1 {
-    font-size: 25px;
+    font-size: 18px;
+    margin: 0;
 }
 
 header img {
@@ -69,4 +70,10 @@ header nav a.active-link {
 
 .center h2 {
     color: #FFF;
+}
+
+@media (max-width: 467px) {
+    header img {
+        display: none;
+    }
 }
